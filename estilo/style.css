@@ -1,5 +1,7 @@
 @charset "UTF-8";
-
+* {
+background-color: rgb(223, 208, 188);
+}
 aside {
     width: 40%;
     padding-left: .5rem;
@@ -16,4 +18,14 @@ aside > p {
 
 p {
     font-family: 'Fira Sans', sans-serif;
+}
+footer {
+    grid-area: footer;
+    box-shadow: 0 10px 20px #ccc;
+    background: #eee;
+    padding 20px 0; 
+    line-height: 30px;
+    text-align: center;
+    font-weight: bold;
+    margin: 30px -5% 10px -5%;
 }
